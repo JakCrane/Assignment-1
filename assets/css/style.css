@@ -15,6 +15,8 @@ a {
     text-decoration: none;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~index~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~index~~~~~~~~~~~~~~~~~~~~~~~*/
+
 /*~~~~~~~~~~~~~~~~~~~~~~~section one~~~~~~~~~~~~~~~~~~~~~~~*/
 .purpose-news {
     margin-bottom: 40px;
@@ -139,22 +141,59 @@ a {
         width: 100%;
         margin: 0;
     }
+
     .link-img {
-        height:250px;
+        height: 250px;
     }
+
     .link-container {
-        height:300px;
+        height: 300px;
     }
+
     .link-title {
-        height:50px;
-        position:relative;
+        height: 50px;
+        position: relative;
     }
+
     .links {
-        padding:20px;
+        padding: 20px;
     }
+
     .links h3 {
-        position:absolute;
+        position: absolute;
         font-size: smaller;
         margin: auto;
     }
 }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~footer~~~~~~~~~~~~~~~~~~~~~~~*/
+footer {
+    background-color: rgb(233, 126, 255);
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~orbit~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~orbit~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.accordion-img {
+    height: 250px;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-position: center center;
+}
+
+.demo-img {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: center center;
+}
+
+.demo-img>a {
+    height: 500px;
+    width: 100%;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~examples~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~examples~~~~~~~~~~~~~~~~~~~~~~~*/
+
+
