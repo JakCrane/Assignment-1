@@ -313,3 +313,16 @@ footer {
     }
 }
 
+.timeline-img {
+    height:200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.left button {
+    float:right;
+}
+.timeline {
+    height:150px;
+}
