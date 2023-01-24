@@ -25,11 +25,10 @@
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">Sections</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/orbit.html">Orbit</a></li>
-                            <li><a class="dropdown-item" href="/examples.html">Examples & History</a></li>
-                            <li><a class="dropdown-item" href="/how.html">How they work</a></li>
-                            <li><a class="dropdown-item" href="#">Space is Awesome</a></li>
-                            <li><a class="dropdown-item" href="#">Latest News</a></li>
+                            <li><a class="dropdown-item" href="/index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="/orbit.html">SatPhys</a></li>
+                            <li><a class="dropdown-item" href="/examples.html">Early Sats</a></li>
+                            <li><a class="dropdown-item" href="/how.html">SatEng</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -38,23 +37,155 @@
     </nav>
     <section>
         <div class="row" width="100%">
-            <div class="col-12">
-                <h2>How do satellites work?</h2>
+            <div class="col-8 offset-2">
+                <h2>A Satellites Life Cycle</h2>
             </div>
-            <div class="col-12">
-                <p>So we have a satellite floating in space and we now know why it doesnt just plummet to the ground.
-                    But why is robot floating in space such an advancement in communication?
-                </p>
+            <div class="col-8 col-lg-10 offset-2 offset-lg-1">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="text-center m-3">Design & Prototype</h3>
+                                    </div>
+                                    <div class="col-lg-4 col-md-12"><img src="/assets/images/Skylab-drawing.jpg"
+                                            class="card-img-top" alt="..."></div>
+                                    <div class="col-lg-8 col-md-12">
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <div class="col-12 mb-2">
+                                                    <p class="card-text">The design stage is further split into 2
+                                                        phases. The preliminary design phase and the critical design
+                                                        phase. </p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p class="card-text">The PDP is focused entirely around a problem to
+                                                        fix or a data set to collect. Lots of research and investigation
+                                                        occurs in this phase as they have alot of questions to answer if
+                                                        they want to pitch the idea successfully to recieve the funding.
+                                                        The questions they seek to answer include: if the goal of the
+                                                        project is feasible, what constraints exist for the project, if
+                                                        this is the best solution to acheive the goal and what are the
+                                                        associated risks or uncertainties with the project. At the end
+                                                        of the first phase there should be a rough idea of how much it
+                                                        will cost, how long it will take, how effective it is and what
+                                                        size or shape the satellite will be. Once all these questions
+                                                        have been answered they will be pitched to funding organisations
+                                                        and if successful the project will move onto the critical design
+                                                        phase. It is common for the PDP to be itterative as noone starts
+                                                        with a perfect idea first try.</p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p class="card-text"> With relative confidence the chosen solution
+                                                        is ideal the focus turns to making it work in practice. The CDP
+                                                        is where exact plans and designs are drafted up. Everything is
+                                                        specified exactly how it will work and often prototypes are
+                                                        produced to test the critical parts of the design for flaws. The
+                                                        exact mass calculations, power consumption and interfacing
+                                                        between subsystems is also clarified. From the critical design,
+                                                        two seperate people building the designs should produce
+                                                        identical end products. often a prototype will be tested in
+                                                        simulated space environments.
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <h3 class="text-center m-3">Build & Test</h3>
+                                <div class="row">
+                                    <div class="col-8 offset-2"><img src="/assets/images/vib-test.jpg"
+                                            class="card-img-top" alt="..."></div>
+                                </div>
+
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6 mb-2">
+                                            <p class="card-text">Assembly and Integration</p>
+                                        </div>
+                                        <div class="col-6 mb-2">
+                                            <p class="card-text">Testing</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="card-text">Bespoke parts of the project are often ordered from
+                                                external companies as making them in house is usually more effort than
+                                                it is worth. Once everything is collected in one room the assembly stage
+                                                begins. This is done in a clean room to prevent contamination like
+                                                dirt/dust from ruining the design. Then various components and
+                                                subsystems of the satellite are put together. This includes assembling
+                                                the structure of the satellite, such as the frame or platform that holds
+                                                all the subsystems in place, as well as attaching the power, propulsion,
+                                                communications, and scientific instruments. This stage also includes
+                                                installing and testing the software and electronic systems that control
+                                                the satellite's functions.</p>
+                                        </div>
+                                        <div class="col-6">
+                                            <p class="card-text">
+                                                The major concerns when a satellite is in space are the vacuum,
+                                                radiation, launch vibrations and pyroshock. These are individually
+                                                tested on earth before the satellite is sent into a launch vehicle and
+                                                can
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <h3>Launch & Operations</h3>
+                                <img src="/assets/images/launch.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="card">
+                                <h3>Deorbiting & Disposal</h3>
+                                <img src="/assets/images/deorbiting.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
             </div>
         </div>
     </section>
-<section>
-    <div class="row">
-        <div class="col how-img" style="background-image: url(/assets/images/block-diagram.png);">
-
-        </div>
-    </div>
-</section>
 
     <footer class="py-5">
         <div class="row">

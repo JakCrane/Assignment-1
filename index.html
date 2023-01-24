@@ -25,11 +25,10 @@
                         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
                             aria-expanded="false">Sections</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/orbit.html">Orbit</a></li>
-                            <li><a class="dropdown-item" href="/examples.html">Examples & History</a></li>
-                            <li><a class="dropdown-item" href="/how.html">How they work</a></li>
-                            <li><a class="dropdown-item" href="#">Space is Awesome</a></li>
-                            <li><a class="dropdown-item" href="#">Latest News</a></li>
+                            <li><a class="dropdown-item" href="/index.html">Home</a></li>
+                            <li><a class="dropdown-item" href="/orbit.html">SatPhys</a></li>
+                            <li><a class="dropdown-item" href="/examples.html">Early Sats</a></li>
+                            <li><a class="dropdown-item" href="/how.html">SatEng</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -38,7 +37,57 @@
     </nav>
     <section class="container purpose-news">
         <div class="row gx-5">
-            <div class="col-sm-7 col-lg-6 purpose">
+            <div class="col-lg-3">
+                <div class="container  quiz-item">
+                    <form>
+                        <div class="row mb-2">
+                            <div class="col-12">
+                                <h4 class="mb-4 text-center">Q: How many planets make up our solar system?</h4>
+                            </div>
+
+                            <div class="col-4 mb-2">
+                                <div class="d-inline-block mx-auto">
+                                    <input type="radio" id="six" name="num_of_planets" value="six">
+                                    <label for="six">6</label></div>
+                            </div>
+                            <div class="col-4 mb-2">
+                                <div class="d-inline-block mx-auto">
+                                    <input type="radio" id="seven" name="num_of_planets" value="seven">
+                                    <label for="seven">7</label></div>
+                            </div>
+                            <div class="col-4 mb-2">
+                                <div class="d-inline-block mx-auto">
+                                    <input type="radio" id="eight" name="num_of_planets" value="eight">
+                                    <label for="eight">8</label></div>
+                            </div>
+                            <div class="col-4 offset-4 mb-2">
+                                <button type="submit" class="btn btn-primary">Check</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h4 class="mb-4 justify">Q: Where are elements heavier than iron produced?</h4>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="row">
+                            <div class="col">
+                                <input type="radio" id="supernova" name="elements_created" value="supernova">
+                                <label for="supernova">In Supernovas</label><br>
+                                <input type="radio" id="blackholes" name="elements_created" value="blackholes">
+                                <label for="blackholes">In Black Holes</label><br>
+                                <input type="radio" id="planets" name="elements_created" value="planets">
+                                <label for="planets">On Planets</label>
+                                <button type="submit" class="btn btn-primary">Check</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-6 purpose">
                 <div class="row">
                     <div class="row hero-img"></div>
                     <div class="row hero-text">
@@ -57,8 +106,47 @@
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col link-header">
+                        <h2>Learn More about Satellites Here!</h2>
+                    </div>
+                </div>
+                <div class="row link-wrapper">
+                    <div class="col">
+                        <a href="/orbit.html">
+                            <div class="row link-container">
+                                <div class="col-sm-8 link-title">
+                                    <h3>Why dont satellites fall out of the sky?</h3>
+                                </div>
+                                <div class="col-sm-4 link-img"
+                                    style="background-image: url(/assets/images/orbits.png);">
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/examples.html">
+                            <div class="row link-container">
+                                <div class="col-sm-4 link-img"
+                                    style="background-image: url(/assets/images/sputnik.jpg);"></div>
+                                <div class="col-sm-8 link-title">
+                                    <h3>Satellites through time</h3>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="/how.html">
+                            <div class="row link-container">
+                                <div class="col-sm-8 link-title">
+                                    <h3>How Satellites work</h3>
+                                </div>
+                                <div class="col-sm-4 link-img"
+                                    style="background-image: url(/assets/images/Skylab-drawing.jpg);">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
             </div>
-            <div class="d-none d-sm-block col-sm-5 col-lg-6 news">
+            <div class="d-none d-sm-block col-lg-3 news">
                 <article>
                     <div class="row">
                         <div class="col">
@@ -113,45 +201,9 @@
                     </div>
                 </article>
             </div>
-    </section>
-    <section class="container links">
-        <div class="row">
-            <div class="col link-header">
-                <h2>Learn More about Satellites Here!</h2>
-            </div>
-        </div>
-        <div class="row link-wrapper">
-            <div class="col">
-                <a href="/orbit.html">
-                    <div class="row link-container">
-                        <div class="col-sm-8 link-title">
-                            <h3>Why dont satellites fall out of the sky?</h3>
-                        </div>
-                        <div class="col-sm-4 link-img" style="background-image: url(/assets/images/orbits.png);">
-                        </div>
-                    </div>
-                </a>
-                <a href="/examples.html">
-                    <div class="row link-container">
-                        <div class="col-sm-4 link-img" style="background-image: url(/assets/images/sputnik.jpg);"></div>
-                        <div class="col-sm-8 link-title">
-                            <h3>Satellites through time</h3>
-                        </div>
-                    </div>
-                </a>
-                <a href="/how.html">
-                    <div class="row link-container">
-                        <div class="col-sm-8 link-title">
-                            <h3>How Satellites work</h3>
-                        </div>
-                        <div class="col-sm-4 link-img"
-                            style="background-image: url(/assets/images/Skylab-drawing.jpg);">
-                        </div>
-                    </div>
-                </a>
-            </div>
         </div>
     </section>
+
     <footer class="py-5">
         <div class="row">
             <div class="col-sm-6">

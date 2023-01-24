@@ -1,11 +1,7 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
 /*general*/
-.row,
-.col {
-    padding: 0;
-    margin: 0;
-}
+
 
 nav {
     margin-bottom: 40px;
@@ -17,7 +13,11 @@ a {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~index~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~index~~~~~~~~~~~~~~~~~~~~~~~*/
 
-/*~~~~~~~~~~~~~~~~~~~~~~~section one~~~~~~~~~~~~~~~~~~~~~~~*/
+.quiz-item {
+    background-color: wheat;
+    border-radius: 20px;
+}
+
 .purpose-news {
     margin-bottom: 40px;
 }
@@ -66,7 +66,8 @@ a {
 .news {
     background-color: wheat;
     padding-top: 24px;
-    border-radius: 10px;
+    border-radius: 20px;
+
     height: 600px;
     overflow-y: scroll;
 }
@@ -87,7 +88,7 @@ a {
     background-position: center;
     width: 100%;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin-bottom: 20px;
 }
 
