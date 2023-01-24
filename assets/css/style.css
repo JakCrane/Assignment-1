@@ -11,13 +11,32 @@ a {
     text-decoration: none;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~bootstrap~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~bootstrap~~~~~~~~~~~~~~~~~~~~~~~*/
+
 /*~~~~~~~~~~~~~~~~~~~~~~~index~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~index~~~~~~~~~~~~~~~~~~~~~~~*/
 
-.quiz-item {
+.bg-wheat {
     background-color: wheat;
+}
+.bg-cyan {
+    background-color: cyan;
+}
+.curved-edge {
     border-radius: 20px;
 }
-
+.curved-edge-top {
+    border-radius: 20px 20px 0 0;
+}
+.y-scroll {
+    overflow-y: scroll;
+}
+.quiz-q {
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+.vh-60 {
+    height:60vh;
+}
 .purpose-news {
     margin-bottom: 40px;
 }
@@ -69,7 +88,7 @@ a {
     border-radius: 20px;
 
     height: 600px;
-    overflow-y: scroll;
+
 }
 
 .news h2 {
