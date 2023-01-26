@@ -5,140 +5,128 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Satellites 101</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link href="/assets/css/style.css" rel="stylesheet">
-
+    <script src="https://kit.fontawesome.com/8366dcd352.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- fix nav bar -->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/index.html">Satellites 101</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
-                aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4" aria-label="Eighth navbar example">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">
+                <h1><i class="fa-solid fa-satellite"></i> Satellites 101</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07"
+                aria-controls="navbarsExample07" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarsExample03">
-                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"
-                            aria-expanded="false">Sections</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/index.html">Home</a></li>
-                            <li><a class="dropdown-item" href="/orbit.html">SatPhys</a></li>
-                            <li><a class="dropdown-item" href="/examples.html">Early Sats</a></li>
-                            <li><a class="dropdown-item" href="/how.html">SatEng</a></li>
-                        </ul>
-                    </li>
+            <div class="collapse navbar-collapse" id="navbarsExample07">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link fs-3" href="/index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link fs-3" href="/orbit.html">SatPhys</a></li>
+                    <li class="nav-item"><a class="nav-link fs-3 active" href="/examples.html">Early Sats</a></li>
+                    <li class="nav-item"><a class="nav-link fs-3" href="/how.html">SatEng</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <section>
-        <div class="row" width="100%">
+    <section class="container">
+        <div class="row">
             <div class="col-12">
-                <h2>Cold War Space Race</h2>
+                <h2 class="text-center">Cold War Space Race</h2>
             </div>
-            <div class="col-12">
-                <p>The space race was a competition between the United States and the Soviet Union to see who could
-                    explore space the most. The two countries were trying to be the first to do things like launch a
-                    rocket into space, send a satellite into orbit, and land a person on the moon. They both wanted to
-                    show the world that their country was the best at science and technology. It was like a big game
-                    where each side tried to outdo the other. It all started in 1957 when the Soviet Union sent the
+            <div class="col-10 offset-1">
+                <p class="fs-5">It is impossible to talk about early space development without mentioning the Cold war
+                    and its
+                    consequences. With both USSR and The USA wanting to prove idological and scientific superiority
+                    they began the race for space. The two countries were competing to be the first to do things like
+                    launch a
+                    rocket into space, send a satellite into orbit, and land a person on the moon. It all started in
+                    1957 when the Soviet Union sent the
                     first satellite, Sputnik, into orbit. The United States followed with its own satellite, Explorer 1,
                     in 1958. The race continued for many years, and in 1969, the United States won by landing the first
                     people on the moon with the Apollo 11 mission.</p>
             </div>
         </div>
-    </section>
-    <section>
-        <div class="container py-5">
-            <div class="row">
-                <div class="col">
-
-
-                    <div class="main-timeline">
-                        <!-- ideally want to add the dates to a hover function on the circles themselves and just have title and picture -->
-                        <div class="timeline left">
-                            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover"
-                                data-bs-title="Popover title"
-                                data-bs-content="And here's some amazing content. It's very engaging. Right?">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <h3>Oct 1957 - Sputnik (спу́тник)</h3>
-                                    </div>
-                                    <div class="col-8 timeline-img"
-                                        style="background-image: url(/assets/images/sputnik-two.jpg);">
-                                    </div>
-                                </div>
-                            </button>
+        <div class="row">
+            <div class="col main-timeline">
+                <!-- ideally want to add the dates to a hover function on the circles themselves and 
+                    just have title and picture -->
+                <div class="timeline left">
+                    <button type="button" class="btn btn-lg btn-success p-0" data-bs-toggle="popover"
+                        data-bs-title="Sputnik (Cпу́тник)"
+                        data-bs-content="The Russians kick off the space race with a successful launch in October of 1957. It was a proof-of-concept mission.">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3>Sputnik</h3>
+                            </div>
+                            <div class="col-8">
+                                <img src="/assets/images/sputnik-two.jpg" class="h-auto w-100" alt="...">
+                            </div>
                         </div>
-                        <div class="timeline right">
-                            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover"
-                                data-bs-title="Popover title"
-                                data-bs-content="And here's some amazing content. It's very engaging. Right?">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <h3>Nov 1957 - Sputnik 2</h3>
-                                    </div>
-                                    <div class="col-8 timeline-img"
-                                        style="background-image: url(/assets/images/sputnik2.jpg);">
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                        <div class="timeline left">
-                            <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
-                                data-bs-title="Popover title"
-                                data-bs-content="And here's some amazing content. It's very engaging. Right?">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <h3>Dec 1957 - Vanguard 1A</h3>
-                                    </div>
-                                    <div class="col-8 timeline-img"
-                                        style="background-image: url(/assets/images/van-1a.jpg);">
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                        <div class="timeline right">
-                            <button type="button" class="btn btn-lg btn-warning" data-bs-toggle="popover"
-                                data-bs-title="Popover title"
-                                data-bs-content="And here's some amazing content. It's very engaging. Right?">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <h3>Sep 1959 - Luna 2</h3>
-                                    </div>
-                                    <div class="col-8 timeline-img"
-                                        style="background-image: url(/assets/images/luna2.png);">
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                        <div class="timeline left">
-                            <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover"
-                                data-bs-title="Popover title"
-                                data-bs-content="And here's some amazing content. It's very engaging. Right?">
-                                <div class="row">
-                                    <div class="col-4">
-                                        <h3>Apr 1962 - Ariel 1</h3>
-                                    </div>
-                                    <div class="col-8 timeline-img"
-                                        style="background-image: url(/assets/images/ariel1.JPG);">
-                                    </div>
-                                </div>
-                            </button>
-                        </div>
-                    </div>
+                    </button>
                 </div>
+                <div class="timeline right">
+                    <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover"
+                        data-bs-title="Popover title"
+                        data-bs-content="And here's some amazing content. It's very engaging. Right?">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3>Nov 1957 - Sputnik 2</h3>
+                            </div>
+                            <div class="col-8 timeline-img" style="background-image: url(/assets/images/sputnik2.jpg);">
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="timeline left">
+                    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
+                        data-bs-title="Popover title"
+                        data-bs-content="And here's some amazing content. It's very engaging. Right?">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3>Dec 1957 - Vanguard 1A</h3>
+                            </div>
+                            <div class="col-8 timeline-img" style="background-image: url(/assets/images/van-1a.jpg);">
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="timeline right">
+                    <button type="button" class="btn btn-lg btn-warning" data-bs-toggle="popover"
+                        data-bs-title="Popover title"
+                        data-bs-content="And here's some amazing content. It's very engaging. Right?">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3>Sep 1959 - Luna 2</h3>
+                            </div>
+                            <div class="col-8 timeline-img" style="background-image: url(/assets/images/luna2.png);">
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="timeline left">
+                    <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover"
+                        data-bs-title="Popover title"
+                        data-bs-content="And here's some amazing content. It's very engaging. Right?">
+                        <div class="row">
+                            <div class="col-4">
+                                <h3>Apr 1962 - Ariel 1</h3>
+                            </div>
+                            <div class="col-8 timeline-img" style="background-image: url(/assets/images/ariel1.JPG);">
+                            </div>
+                        </div>
+                    </button>
+                </div>
+
             </div>
         </div>
-    </section> <!-- https://en.wikipedia.org/wiki/Timeline_of_artificial_satellites_and_space_probes -->
-    
+    </section>
+    <!-- https://en.wikipedia.org/wiki/Timeline_of_artificial_satellites_and_space_probes -->
+
     <footer class="py-5">
         <div class="row">
             <div class="col-sm-6">
@@ -150,7 +138,8 @@
                             <li class="nav-item mb-2"><a href="https://youtu.be/CrZCBaV5fxg"
                                     class="nav-link p-0 text-muted">Satellite Design</a></li>
                             <li class="nav-item mb-2"><a href="https://youtu.be/jVzbs81bDy0"
-                                    class="nav-link p-0 text-muted">What if every satellite suddenly disappeared? Ted -
+                                    class="nav-link p-0 text-muted">What if every satellite suddenly disappeared?
+                                    Ted -
                                     Ed</a></li>
                             <li class="nav-item mb-2"><a
                                     href="https://www.youtube.com/watch?v=0rHUDWjR5gg&list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL"
@@ -165,7 +154,8 @@
                                     class="nav-link p-0 text-muted">CubeSats 101</a></li>
                             <li class="nav-item mb-2"><a
                                     href="https://www.sciencedirect.com/topics/engineering/downlink-and-uplink-transmission"
-                                    class="nav-link p-0 text-muted">Satellite to Ground Station Communication</a></li>
+                                    class="nav-link p-0 text-muted">Satellite to Ground Station Communication</a>
+                            </li>
                             <li class="nav-item mb-2"><a
                                     href="https://www.sciencedirect.com/book/9780080977478/orbital-mechanics-for-engineering-students"
                                     class="nav-link p-0 text-muted">Orbital Mechanics and Mission Planning</a></li>
@@ -247,16 +237,16 @@
             </ul>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
     <script>
         var popoverTriggerList = [].slice.call(document.querySelectorAll(
             '[data-bs-toggle="popover"]'))
         var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
             return new bootstrap.Popover(popoverTriggerEl)
         })
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
-    </script>
     </script>
 </body>
 
