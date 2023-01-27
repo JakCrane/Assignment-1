@@ -93,19 +93,31 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mb-10 t-l-spacer">
             <div class="col main-timeline">
-                <!-- ideally want to add the dates to a hover function on the circles themselves and 
-                    just have title and picture -->
+                <div class="row position-ledgend w-40 g-0 curved-edge overflow-hidden">
+                    <div class="col-6 h-ledgend bg-success">
+                    </div>
+                    <div class="col-6 h-ledgend bg-danger">
+                    </div>
+                </div>
+                <div class="row position-ledgend w-40 g-0 h-ledgend">
+                    <div class="col-6 my-auto p-0">
+                        <h6 class="text-center mb-0 text-white">American Missions</h6>
+                    </div>
+                    <div class="col-6 my-auto p-0">
+                        <h6 class="text-center mb-0 text-white">Russian Mission</h6>
+                    </div>
+                </div>
                 <div class="timeline left">
                     <button type="button" class="btn btn-lg timeline-btn" data-bs-toggle="popover"
                         data-bs-title="Sputnik (Cпу́тник) - Oct 4 1957"
                         data-bs-content="The Russians kick off the space race with a successful launch in October of 1957. It was a proof-of-concept mission.">
-                        <div class="row curved-edge overflow-hidden bg-success border border-2 border-dark">
-                            <div class="col-4 my-auto p-0">
+                        <div class="row curved-edge overflow-hidden bg-danger border border-2 border-dark">
+                            <div class="col-4 col-sm-6 my-auto p-0">
                                 <h3 class="text-center mr-2 text-white">Sputnik</h3>
                             </div>
-                            <div class="col-8 p-0 ">
+                            <div class="col-8 col-sm-6 p-0 ">
                                 <img src="/assets/images/sputnik-two.jpg" class="h-150px w-110" alt="...">
                             </div>
                         </div>
@@ -115,7 +127,7 @@
                     <button type="button" class="btn btn-lg timeline-btn" data-bs-toggle="popover"
                         data-bs-title="Sputnik 2 - Nov 3 1957"
                         data-bs-content="Again a satellite by the russians. This satellite launched only a month after the first Sputnik and carried the first animal astronaut, a dog named Laika into space.">
-                        <div class="row curved-edge overflow-hidden bg-success border border-2 border-dark">
+                        <div class="row curved-edge overflow-hidden bg-danger border border-2 border-dark">
                             <div class="col-7 my-auto p-0">
                                 <h3 class="text-center mr-2 text-white">Sputnik 2</h3>
                             </div>
@@ -127,9 +139,9 @@
                 </div>
                 <div class="timeline left">
                     <button type="button" class="btn btn-lg timeline-btn" data-bs-toggle="popover"
-                        data-bs-title="Vanguard 1A"
+                        data-bs-title="Vanguard 1A - Dec 6 1957"
                         data-bs-content="This is the first American launched satellite and it signifies the rocky start the americans had to space exploration. Having 15 more failed launches before the end of the decade">
-                        <div class="row curved-edge overflow-hidden bg-danger border border-2 border-dark">
+                        <div class="row curved-edge overflow-hidden bg-success border border-2 border-dark">
                             <div class="col-7 my-auto p-0">
                                 <h3 class="text-center mr-2 text-white">Vanguard 1A</h3>
                             </div>
@@ -139,159 +151,161 @@
                         </div>
                     </button>
                 </div>
-                <div class="timeline left">
-                    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover"
-                        data-bs-title="Popover title"
-                        data-bs-content="And here's some amazing content. It's very engaging. Right?">
-                        <div class="row">
-                            <div class="col-4">
-                                <h3>Dec 1957 - Vanguard 1A</h3>
+                <div class="timeline right">
+                    <button type="button" class="btn btn-lg timeline-btn w-100" data-bs-toggle="popover"
+                        data-bs-title="Explorer 1 - Feb 1 1958"
+                        data-bs-content="This is the first American satellite that made it into space almost half a year after the USSR.">
+                        <div class="row curved-edge overflow-hidden bg-success border border-2 border-dark">
+                            <div class="col-6 my-auto p-0">
+                                <h3 class="text-center mr-2 text-white">Explorer 1</h3>
                             </div>
-                            <div class="col-8 timeline-img" style="background-image: url(/assets/images/van-1a.jpg);">
+                            <div class="col-6 p-0 ">
+                                <img src="/assets/images/Explorer1.jpg" class="h-150px w-100" alt="...">
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="timeline left">
+                    <button type="button" class="btn btn-lg timeline-btn" data-bs-toggle="popover"
+                        data-bs-title="Luna 2 - Sep 12 1959"
+                        data-bs-content="This is the first Spacecraft to reach the moon. Sent by the USSR">
+                        <div class="row curved-edge overflow-hidden bg-danger border border-2 border-dark">
+                            <div class="col-7 my-auto p-0">
+                                <h3 class="text-center mr-2 text-white">Luna 2</h3>
+                            </div>
+                            <div class="col-5 p-0 ">
+                                <img src="/assets/images/luna2.png" class="h-150px w-110" alt="...">
                             </div>
                         </div>
                     </button>
                 </div>
                 <div class="timeline right">
-                    <button type="button" class="btn btn-lg btn-warning" data-bs-toggle="popover"
-                        data-bs-title="Popover title"
-                        data-bs-content="And here's some amazing content. It's very engaging. Right?">
-                        <div class="row">
-                            <div class="col-4">
-                                <h3>Sep 1959 - Luna 2</h3>
+                    <button type="button" class="btn btn-lg timeline-btn w-100" data-bs-toggle="popover"
+                        data-bs-title="TIROS-1 - Apr 1 1960"
+                        data-bs-content="This is the first Low Earth Orbit weather satellite.">
+                        <div class="row curved-edge overflow-hidden bg-success border border-2 border-dark">
+                            <div class="col-5 col-lg-8 my-auto p-0">
+                                <h3 class="text-center mr-2 text-white">TIROS-1</h3>
                             </div>
-                            <div class="col-8 timeline-img" style="background-image: url(/assets/images/luna2.png);">
-                            </div>
-                        </div>
-                    </button>
-                </div>
-                <div class="timeline left">
-                    <button type="button" class="btn btn-lg btn-success" data-bs-toggle="popover"
-                        data-bs-title="Popover title"
-                        data-bs-content="And here's some amazing content. It's very engaging. Right?">
-                        <div class="row">
-                            <div class="col-4">
-                                <h3>Apr 1962 - Ariel 1</h3>
-                            </div>
-                            <div class="col-8 timeline-img" style="background-image: url(/assets/images/ariel1.JPG);">
+                            <div class="col-7 col-lg-4 p-0 ">
+                                <img src="/assets/images/Tiros.jpg" class="h-150px w-110" alt="...">
                             </div>
                         </div>
                     </button>
                 </div>
-
             </div>
         </div>
     </section>
-    <!-- https://en.wikipedia.org/wiki/Timeline_of_artificial_satellites_and_space_probes -->
-
-    <footer class="py-5">
-        <div class="row">
-            <div class="col-sm-6">
-                <h4 class="mb-4 text-center">Want to learn more?</h4>
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h5>Video Resources</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a href="https://youtu.be/CrZCBaV5fxg"
-                                    class="nav-link p-0 text-muted">Satellite Design</a></li>
-                            <li class="nav-item mb-2"><a href="https://youtu.be/jVzbs81bDy0"
-                                    class="nav-link p-0 text-muted">What if every satellite suddenly disappeared?
-                                    Ted -
-                                    Ed</a></li>
-                            <li class="nav-item mb-2"><a
-                                    href="https://www.youtube.com/watch?v=0rHUDWjR5gg&list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL"
-                                    class="nav-link p-0 text-muted">Crash Course Astronomy</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6">
-                        <h5>Academic Resources</h5>
-                        <ul class="nav flex-column">
-                            <li class="nav-item mb-2"><a
-                                    href="https://www.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf"
-                                    class="nav-link p-0 text-muted">CubeSats 101</a></li>
-                            <li class="nav-item mb-2"><a
-                                    href="https://www.sciencedirect.com/topics/engineering/downlink-and-uplink-transmission"
-                                    class="nav-link p-0 text-muted">Satellite to Ground Station Communication</a>
-                            </li>
-                            <li class="nav-item mb-2"><a
-                                    href="https://www.sciencedirect.com/book/9780080977478/orbital-mechanics-for-engineering-students"
-                                    class="nav-link p-0 text-muted">Orbital Mechanics and Mission Planning</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <form>
-                    <h4 class="text-center mb-4">Contact us</h4>
-                    <p>Know a fun space fact or spot a mistake? Drop us an email and we will be sure to respond.</p>
+    <footer>
+        <div class="container">
+            <div class="row gy-3 mt-4">
+                <div class="col-sm-6">
+                    <h4 class="mb-4 text-center">Want to learn more?</h4>
                     <div class="row">
-                        <div class="col-md-10 offset-1 mb-md-0 mb-5">
-                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="name" name="name" class="form-control">
-                                            <label for="name" class="">Your name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="email" name="email" class="form-control">
-                                            <label for="email" class="">Your email</label>
-                                        </div>
-                                    </div>
-                                    <!--Grid column-->
-
-                                </div>
-                                <!--Grid row-->
-
-                                <!--Grid row-->
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <div class="md-form mb-0">
-                                            <input type="text" id="subject" name="subject" class="form-control">
-                                            <label for="subject" class="">Subject</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--Grid row-->
-
-                                <!--Grid row-->
-                                <div class="row">
-
-                                    <!--Grid column-->
-                                    <div class="col-md-12">
-
-                                        <div class="md-form">
-                                            <textarea type="text" id="message" name="message" rows="2"
-                                                class="form-control md-textarea"></textarea>
-                                            <label for="message">Your message</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!--Grid row-->
-
-                            </form>
-
-                            <div class="text-center text-md-left">
-                                <a class="btn btn-primary"
-                                    onclick="document.getElementById('contact-form').submit();">Send</a>
-                            </div>
-                            <div class="status"></div>
+                        <div class="col-sm-6">
+                            <h5>Video Resources</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a href="https://youtu.be/CrZCBaV5fxg"
+                                        class="nav-link p-0 text-muted">Satellite Design</a></li>
+                                <li class="nav-item mb-2"><a href="https://youtu.be/jVzbs81bDy0"
+                                        class="nav-link p-0 text-muted">What if every satellite suddenly disappeared?
+                                        Ted -
+                                        Ed</a></li>
+                                <li class="nav-item mb-2"><a
+                                        href="https://www.youtube.com/watch?v=0rHUDWjR5gg&list=PL8dPuuaLjXtPAJr1ysd5yGIyiSFuh0mIL"
+                                        class="nav-link p-0 text-muted">Crash Course Astronomy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6">
+                            <h5>Academic Resources</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-2"><a
+                                        href="https://www.nasa.gov/sites/default/files/atoms/files/nasa_csli_cubesat_101_508.pdf"
+                                        class="nav-link p-0 text-muted">CubeSats 101</a></li>
+                                <li class="nav-item mb-2"><a
+                                        href="https://www.sciencedirect.com/topics/engineering/downlink-and-uplink-transmission"
+                                        class="nav-link p-0 text-muted">Satellite to Ground Station Communication</a>
+                                </li>
+                                <li class="nav-item mb-2"><a
+                                        href="https://www.sciencedirect.com/book/9780080977478/orbital-mechanics-for-engineering-students"
+                                        class="nav-link p-0 text-muted">Orbital Mechanics and Mission Planning</a></li>
+                            </ul>
                         </div>
                     </div>
-                </form>
-            </div>
-        </div>
+                </div>
+                <div class="col-sm-6">
+                    <form>
+                        <h4 class="text-center mb-4">Contact us</h4>
+                        <p>Know a fun space fact or spot a mistake? Drop us an email and we will be sure to respond.</p>
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1 mb-md-0 mb-5">
+                                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <label for="name" class="">Your name</label>
+                                                <input type="text" id="name" name="name" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <label for="email" class="">Your email</label>
+                                                <input type="text" id="email" name="email" class="form-control">
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
 
-        <div class="d-flex justify-content-between py-4 my-4 border-top">
-            <p>© 2021 Company, Inc. All rights reserved.</p>
-            <ul class="list-unstyled d-flex">
-                <li class="mx-3"><a class="link-dark" href="#"><i class="bi bi-twitter"></i></a></li>
-                <li class="mx-3"><a class="link-dark" href="#"><i class="bi bi-discord"></i></a></li>
-                <li class="mx-3"><a class="link-dark" href="#"><i class="bi bi-facebook"></i></a></li>
-            </ul>
+                                    </div>
+                                    <!--Grid row-->
+
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="md-form mb-0">
+                                                <label for="subject" class="">Subject</label>
+                                                <input type="text" id="subject" name="subject" class="form-control">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+
+                                    <!--Grid row-->
+                                    <div class="row">
+
+                                        <!--Grid column-->
+                                        <div class="col-md-12">
+
+                                            <div class="md-form">
+                                                <label for="message">Your message</label>
+                                                <textarea type="text" id="message" name="message" rows="2"
+                                                    class="form-control md-textarea mb-2"></textarea>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+
+                                </form>
+
+                                <div class="text-center text-md-left">
+                                    <a class="btn btn-primary"
+                                        onclick="document.getElementById('contact-form').submit();">Send</a>
+                                </div>
+                                <div class="status"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="d-flex justify-content-between py-4 my-4 border-top">
+                <p>© 2021 Company, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex">
+                    <li class="mx-3"><a class="link-dark" href="#"><i class="bi bi-twitter"></i></a></li>
+                    <li class="mx-3"><a class="link-dark" href="#"><i class="bi bi-discord"></i></a></li>
+                    <li class="mx-3"><a class="link-dark" href="#"><i class="bi bi-facebook"></i></a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 
