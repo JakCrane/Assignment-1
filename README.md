@@ -63,6 +63,8 @@ After the content overhaul I ended with this website profile.
  problem: want to learn about satellites but dont have the prerequisite knowledge needed for the main avenues of education on the topic 
  uniqueness: easy to understand and interactive making learning fun
  website description: Begginer platform aimed at nurturing interest and excitement for the field of satellites and guiding users to high-quality additional resources for further research. Starting with a 2 pronged approach of teaching the basic science behind how they work and the preliminary engineering processes. 
+ website meta description: a begginer friendly launch site to blast off into the world of satellites and space science.
  
+
  First time visitor:
  
