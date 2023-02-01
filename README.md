@@ -4,8 +4,6 @@ python3 -m http.server
 
 to do
 readme
-ss of finished product in readme
-	Write a README.md file for the web application that explains its purpose, the value that it provides to its users, and the deployment procedure.
 	Insert screenshots of the project features, give a brief description of what each feature does and explain its value to the user.
   Attribute all code from external sources to its original source via comments above the code and (for larger dependencies) in the README.
   Organise HTML and CSS code into well-defined and commented sections
@@ -62,9 +60,8 @@ After the content overhaul I ended with this website profile.
  website description: Begginer platform aimed at nurturing interest and excitement for the field of satellites and guiding users to high-quality additional resources for further research. Starting with a 2 pronged approach of teaching the basic science behind how they work and the preliminary engineering processes. 
  website meta description: a begginer friendly launch site to blast off into the world of satellites and space science.
 
-Now knowing what content I wanted on the site I produced multiple iterations of wireframe.
+Now knowing what content I wanted on the site I produced multiple iterations of wireframe. This was the first itteration:
 
-This was the first itteration
 ![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-1-1.PNG?raw=true)
 ![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-1-2.PNG?raw=true)
 ![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-1-3.PNG?raw=true)
@@ -73,10 +70,17 @@ This was the first itteration
 
 But it looked unprofessional so i checked other professional websites on dribbble to make it more sophisticated
 
-after starting the second wireframe i realised it was hard to produce without knowing what content i wanted on the site so focused on the content and the wireframe made itself
+after starting the second wireframe i realised it was hard to produce without knowing what content i wanted on the site so focused on the content and the wireframe made itself. (Examples from 2nd wireframe)
 
 ![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-2-1.PNG?raw=true)
 ![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-2-a.PNG?raw=true)
+
+Colour scheme
+
+the colour scheme chosen was trying to motivate feelings of professionalism and confidence in the information without being dull and boring. The choice of blue was settled on for this purpose.
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/colours.PNG?raw=true)
+
 
 First time visitor:
  the user can click on or interact with anything that interests them. with the sections being independent there is no order that they must be interacted with and the links below the hero serve to guide the user based on what questions they want answered. Minimising content the user doesnt find interesting.
@@ -86,4 +90,37 @@ Frequent Visitor
  the nav links at the top serve as faster access throughout the site and frequent visitors can navigate to the specific content they need as it is labelled.
 
 Page features
+
+Nav bar
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/nav-open.PNG?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/nav-closed.PNG?raw=true)
+
+Hero img
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/hero-img.PNG?raw=true)
+
+Quiz
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/quiz.PNG?raw=true)
+
+News
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/news.PNG?raw=true)
+
+Accordion
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/accordion.PNG?raw=true)
+
+Timeline
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/timeline.PNG?raw=true)
+
+Carousel
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/"colours".PNG?raw=true)
+
+Footer
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/footer.PNG?raw=true)
 
