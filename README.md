@@ -3,11 +3,7 @@ python3 -m http.server
 
 
 to do
-accessibility
 readme
-lo 1.6
-w3c html validator
-check semantics
 ss of finished product in readme
 	Write a README.md file for the web application that explains its purpose, the value that it provides to its users, and the deployment procedure.
 	Insert screenshots of the project features, give a brief description of what each feature does and explain its value to the user.
@@ -16,8 +12,9 @@ ss of finished product in readme
   Use consistent and effective markdown formatting to produce a README file in English that is well-structured, easy to follow, and has few grammatical errors.
 
 
-Satellites 101 is an independent eductional website with the core goal of getting people interested in Space and Satellites. Satellites are crucial for so many of our daily tasks that it is a shame that so few resources are availible. The website was designed to be as interactive and enjoyable as possible. This project was intended to be a starting point for people wanting to learn more about space. With lots of links and additional information they can explore what ever direction interests them. 
+Satellites 101 is an independent eductional website with the core goal of getting people interested in Space and Satellites. Satellites are crucial for so many of our daily tasks that it is a shame that so few resources are availible. The website was designed to be as interactive and enjoyable as possible. This project was intended to be a starting point for people wanting to learn more about space. With lots of links and additional information, they can explore what ever direction interests them. 
 
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/site-screenshot.PNG?raw=true)
 
 Creation process
 
@@ -46,7 +43,7 @@ This made me broaden my approach and think solely about features and what i want
  Overfiew of the field and different subsetions of it for employment
  satellites in fiction compared to reality
 
-As you can see this was way too many features to add to my website so i refined it down to 4 main sections 
+As you can see this was way too many features to add to my website so i refined it down to 4 main sections
  Home page
   With some news, some interactive/fun learning and nav links
  SatPhys
@@ -64,7 +61,29 @@ After the content overhaul I ended with this website profile.
  uniqueness: easy to understand and interactive making learning fun
  website description: Begginer platform aimed at nurturing interest and excitement for the field of satellites and guiding users to high-quality additional resources for further research. Starting with a 2 pronged approach of teaching the basic science behind how they work and the preliminary engineering processes. 
  website meta description: a begginer friendly launch site to blast off into the world of satellites and space science.
- 
 
- First time visitor:
- 
+Now knowing what content I wanted on the site I produced multiple iterations of wireframe.
+
+This was the first itteration
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-1-1.PNG?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-1-2.PNG?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-1-3.PNG?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-1-4.PNG?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-1-5.PNG?raw=true)
+
+But it looked unprofessional so i checked other professional websites on dribbble to make it more sophisticated
+
+after starting the second wireframe i realised it was hard to produce without knowing what content i wanted on the site so focused on the content and the wireframe made itself
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-2-1.PNG?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/wf-2-a.PNG?raw=true)
+
+First time visitor:
+ the user can click on or interact with anything that interests them. with the sections being independent there is no order that they must be interacted with and the links below the hero serve to guide the user based on what questions they want answered. Minimising content the user doesnt find interesting.
+ There are extra links in the footer if the user decides they want more resources (clearly labelled).
+
+Frequent Visitor
+ the nav links at the top serve as faster access throughout the site and frequent visitors can navigate to the specific content they need as it is labelled.
+
+Page features
+
