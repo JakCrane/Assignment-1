@@ -8,6 +8,7 @@ readme
   Attribute all code from external sources to its original source via comments above the code and (for larger dependencies) in the README.
   Organise HTML and CSS code into well-defined and commented sections
   Use consistent and effective markdown formatting to produce a README file in English that is well-structured, easy to follow, and has few grammatical errors.
+  new wire frame for current site
 
 
 Satellites 101 is an independent eductional website with the core goal of getting people interested in Space and Satellites. Satellites are crucial for so many of our daily tasks that it is a shame that so few resources are availible. The website was designed to be as interactive and enjoyable as possible. This project was intended to be a starting point for people wanting to learn more about space. With lots of links and additional information, they can explore what ever direction interests them. 
@@ -124,3 +125,5 @@ Footer
 
 ![alt text](https://github.com/JakCrane/Assignment-1/blob/main/footer.PNG?raw=true)
 
+
+ruined stuff: carousel

@@ -1,6 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
 
-/*to remove when colour palette is added*/
+/* colours */
 .bg-primary {
     background-color: #304D6D !important;
 }
@@ -25,6 +25,7 @@ footer {
     background-color: #3B3B58;
 }
 
+/* bootstrap esque classes */
 h1,
 h2,
 h3,
@@ -32,7 +33,7 @@ h4,
 h5,
 h6,
 p,
-label {
+.invisible {
     color: white;
 }
 
@@ -40,8 +41,8 @@ label {
     border-radius: 20px;
 }
 
-.off-white {
-    background-color: #ebe8e2
+.white {
+    background-color: white;
 }
 
 .h-150px {
@@ -63,26 +64,31 @@ label {
 .mb-10 {
     margin-bottom: 6rem !important;
 }
+.brm {
+    margin-bottom: 8px;
+    margin-right: 8px;
+}
 
+/*~~~ nav ~~~*/
 .navbar-collapse {
     flex-grow: 0;
 }
-.ledgend-col {
-    height: 75px;
-}
+
+/*~~~ footer ~~~*/
 .link-light:focus, .link-light:hover {
     color: #9f9f9f!important;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~index~~~~~~~~~~~~~~~~~~~~~~~*/
 
-
 .link:hover {
-    border: 1px solid rgb(79, 155, 129);
+    border: 1px solid #2d445e;
 }
 
+/*~~~ quiz ~~~*/
+
 .list-group-item:hover {
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 .false:active {
@@ -100,7 +106,11 @@ label {
     --bs-list-group-active-border-color: rgb(68, 255, 47);
 }
 
-/* custom timeline css */
+
+/*~~~~~~~~~~~~~~~~~~~~~~ examples ~~~~~~~~~~~~~~~~~~~~~~*/
+
+/*~~~~~~ timeline ~~~~~~*/
+
 .timeline-btn {
     border: 1px solid black;
     padding: 0;
@@ -111,7 +121,6 @@ label {
     align-items: center;
 }
 
-/* The actual timeline (the vertical ruler) */
 .main-timeline {
     position: relative;
 }
@@ -122,7 +131,6 @@ label {
     right: 30%;
 }
 
-/* The actual timeline (the vertical ruler) */
 .main-timeline::after {
     content: "";
     position: absolute;
@@ -134,7 +142,6 @@ label {
     margin-left: -3px;
 }
 
-/* Container around content */
 .timeline {
     margin-bottom: 5px;
     position: relative;
@@ -142,7 +149,6 @@ label {
     width: 50%;
 }
 
-/* The circles on the timeline */
 .timeline::after {
     content: "";
     position: absolute;
@@ -156,21 +162,18 @@ label {
     z-index: 1;
 }
 
-/* Place the container to the left */
 .left {
     padding: 20px 40px 20px 0px;
     left: 0;
     display: inline-block;
 }
 
-/* Place the container to the right */
 .right {
     padding: 20px 0px 20px 40px;
     display: inline-block;
     left: 50%;
 }
 
-/* Add arrows to the left container (pointing right) */
 .left::before {
     content: " ";
     position: absolute;
@@ -182,7 +185,6 @@ label {
     border-color: transparent transparent transparent rgba(255, 255, 255, 0);
 }
 
-/* Add arrows to the right container (pointing left) */
 .right::before {
     content: " ";
     position: absolute;
@@ -194,7 +196,6 @@ label {
     border-color: transparent rgba(255, 255, 255, 0) transparent transparent;
 }
 
-/* Fix the circle for containers on the right side */
 .right::after {
     left: -12px;
 }
@@ -207,7 +208,6 @@ label {
     height: 10vw;
 }
 
-/* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
 
     /*custom*/

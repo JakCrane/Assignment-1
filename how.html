@@ -34,7 +34,7 @@
         </div>
     </nav>
     <section class="container">
-        <div class="row mb-5">
+        <div class="row mb-5"> <!-- explainer text row  -->
             <div class="col-10 offset-1 curved-edge border overflow-hidden d-xl-none">
                 <div class="row">
                     <div class="bg-primary">
@@ -81,33 +81,28 @@
                 </div>
             </div>
         </div>
-        <div class="row curved-edge overflow-hidden">
-            <div class="col p-0">
-                <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="row curved-edge overflow-hidden mb-5 carousel-wrapper"> <!-- carousel row  -->
+            <div class="col p-0 my-auto carousel-container">
+                <div id="carousel1" class="carousel carousel-dark carousel-fade slide" data-bs-ride="false">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
+                        <div class="carousel-item active"> <!-- carousel item  -->
                             <div class="row">
                                 <div class="col-12 bg-primary">
-                                    <h3 class="text-center m-3">Design & Prototype</h3>
+                                    <h3 class="text-center m-3 mx-auto">Design & Prototype</h3>
                                 </div>
-                                <div class="col off-white">
-                                    <img src="/assets/images/Skylab-drawing.webp" class="w-50 h-auto float-start"
-                                        alt="...">
-                                    <p class="header-color">The design stage is further split into 2
-                                        phases. The preliminary design phase and the critical design
-                                        phase.
-                                    </p>
-                                    <p class="header-color">The PDP is focused entirely around a problem to
+                                <div class="col white carousel-height">
+                                    <img src="/assets/images/sat-engdrawing.webp" class="d-none d-xl-block float-start w-33 h-auto brm" alt="...">
+                                    <img src="/assets/images/sat-engdrawing.webp" class="d-none d-md-block d-xl-none float-start w-50 h-auto brm" alt="...">
+                                    <p class="header-color h5 text-center">Preliminary design phase</p>
+                                    <p class="header-color fs-5">The PDP is focused entirely around a problem to
                                         fix or a data set to collect. Lots of research and investigation
                                         occurs in this phase as they have alot of questions to answer if
                                         they want to pitch the idea successfully to recieve the funding.
@@ -123,7 +118,9 @@
                                         phase. It is common for the PDP to be itterative as noone starts
                                         with a perfect idea first try.
                                     </p>
-                                    <p class="header-color"> With relative confidence the chosen solution
+                                    <hr class="invisible">
+                                    <p class="header-color h5 text-center">Critical design phase</p>
+                                    <p class="header-color fs-5"> With relative confidence the chosen solution
                                         is ideal the focus turns to making it work in practice. The CDP
                                         is where exact plans and designs are drafted up. Everything is
                                         specified exactly how it will work and often prototypes are
@@ -137,15 +134,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item"> <!-- carousel item  -->
                             <div class="row">
                                 <div class="col-12 bg-primary">
-                                    <h3 class="text-center m-3">Build & Test</h3>
+                                    <h3 class="text-center m-3 h5 text-center">Build & Test</h3>
                                 </div>
-                                <div class="col off-white">
-                                    <img src="/assets/images/vib-test.webp" class="float-end w-50 h-auto" alt="...">
-                                    <p class="header-color">Assembly and Integration</p>
-                                    <p class="header-color">Bespoke parts of the project are often ordered from
+                                <div class="col white carousel-height">
+                                    <img src="/assets/images/vib-test.webp" class="d-none d-xl-block float-start w-33 h-auto brm" alt="...">
+                                    <img src="/assets/images/vib-test.webp" class="d-none d-md-block d-xl-none float-start w-50 h-auto brm" alt="...">
+                                    <p class="header-color h5 text-center">Assembly and Integration</p>
+                                    <p class="header-color fs-5">Bespoke parts of the project are often ordered from
                                         external companies as making them in house is usually more effort than
                                         it is worth. Once everything is collected in one room the assembly stage
                                         begins. This is done in a clean room to prevent contamination like
@@ -155,9 +153,11 @@
                                         all the subsystems in place, as well as attaching the power, propulsion,
                                         communications, and scientific instruments. This stage also includes
                                         installing and testing the software and electronic systems that control
-                                        the satellite's functions.</p>
-                                    <p class="header-color">Testing</p>
-                                    <p class="header-color">
+                                        the satellite's functions.
+                                    </p>
+                                    <hr class="invisible">
+                                    <p class="header-color h5 text-center">Testing</p>
+                                    <p class="header-color fs-5">
                                         The major concerns when a satellite is in space are the vacuum,
                                         radiation, launch vibrations and pyroshock. These are individually
                                         tested on earth before the satellite is sent into a launch vehicle and
@@ -165,105 +165,42 @@
                                     </p>
                                 </div>
                             </div>
-                            <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                            </div>
                         </div>
-                        <div class="carousel-item">
+                        <div class="carousel-item"> <!-- carousel item  -->
                             <div class="row">
                                 <div class="col-12 bg-primary">
-                                    <h3 class="text-center m-3">Launch & Operations</h3>
+                                    <h3 class="text-center m-3 h5 text-center">Launch & Operations</h3>
                                 </div>
-                                <div class="col off-white">
-                                    <img src="/assets/images/launch.webp" class="w-50 h-auto float-start" alt="...">
-
-                                    <p class="header-color">The design stage is further split into 2
-                                        phases. The preliminary design phase and the critical design
-                                        phase.
+                                <div class="col white carousel-height">
+                                    <img src="/assets/images/launch.webp" class="d-none d-xl-block float-start w-33 h-auto brm" alt="...">
+                                    <img src="/assets/images/launch.webp" class="d-none d-md-block d-xl-none float-start w-50 h-auto brm" alt="...">
+                                    <p class="header-color h5 text-center">Launch</p>
+                                    <p class="header-color fs-5">A satellite is launched into space on board a launch vehicle (lv), usually developed by an outside company. 
+                                        These launch vehicles are often rockets taking up many different payloads and involve multiple stages, each with 
+                                        their own engines and fuel tanks. These vehicles progressively increase the satellites altitude and vertical velocity until
+                                        they are ready to release the satellites. The satellite is typically attached to the top of the launch vehicle, and 
+                                        protected by a fairing during the early stages of ascent to protect it from destructive G forces. The 
+                                        rocket is typically launched from a launch pad, and the trajectory is carefully controlled to ensure that the satellite
+                                        is inserted into the desired orbit. The launch is controlled from a mission control center, where a team of engineers and
+                                        technicians monitor the progress of the launch and make adjustments as needed.
                                     </p>
-                                    <p class="header-color">The PDP is focused entirely around a problem to
-                                        fix or a data set to collect. Lots of research and investigation
-                                        occurs in this phase as they have alot of questions to answer if
-                                        they want to pitch the idea successfully to recieve the funding.
-                                        The questions they seek to answer include: if the goal of the
-                                        project is feasible, what constraints exist for the project, if
-                                        this is the best solution to acheive the goal and what are the
-                                        associated risks or uncertainties with the project. At the end
-                                        of the first phase there should be a rough idea of how much it
-                                        will cost, how long it will take, how effective it is and what
-                                        size or shape the satellite will be. Once all these questions
-                                        have been answered they will be pitched to funding organisations
-                                        and if successful the project will move onto the critical design
-                                        phase. It is common for the PDP to be itterative as noone starts
-                                        with a perfect idea first try.
-                                    </p>
-                                    <p class="header-color"> With relative confidence the chosen solution
-                                        is ideal the focus turns to making it work in practice. The CDP
-                                        is where exact plans and designs are drafted up. Everything is
-                                        specified exactly how it will work and often prototypes are
-                                        produced to test the critical parts of the design for flaws. The
-                                        exact mass calculations, power consumption and interfacing
-                                        between subsystems is also clarified. From the critical design,
-                                        two seperate people building the designs should produce
-                                        identical end products. often a prototype will be tested in
-                                        simulated space environments.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <div class="row">
-                                <div class="col-12 bg-primary">
-                                    <h3 class="text-center m-3">Deorbiting & Disposal</h3>
-                                </div>
-                                <div class="col off-white">
-                                    <img src="/assets/images/deorbiting.webp" class="w-50 h-auto float-start" alt="...">
-
-                                    <p class="header-color">The design stage is further split into 2
-                                        phases. The preliminary design phase and the critical design
-                                        phase.
-                                    </p>
-                                    <p class="header-color">The PDP is focused entirely around a problem to
-                                        fix or a data set to collect. Lots of research and investigation
-                                        occurs in this phase as they have alot of questions to answer if
-                                        they want to pitch the idea successfully to recieve the funding.
-                                        The questions they seek to answer include: if the goal of the
-                                        project is feasible, what constraints exist for the project, if
-                                        this is the best solution to acheive the goal and what are the
-                                        associated risks or uncertainties with the project. At the end
-                                        of the first phase there should be a rough idea of how much it
-                                        will cost, how long it will take, how effective it is and what
-                                        size or shape the satellite will be. Once all these questions
-                                        have been answered they will be pitched to funding organisations
-                                        and if successful the project will move onto the critical design
-                                        phase. It is common for the PDP to be itterative as noone starts
-                                        with a perfect idea first try.
-                                    </p>
-                                    <p class="header-color"> With relative confidence the chosen solution
-                                        is ideal the focus turns to making it work in practice. The CDP
-                                        is where exact plans and designs are drafted up. Everything is
-                                        specified exactly how it will work and often prototypes are
-                                        produced to test the critical parts of the design for flaws. The
-                                        exact mass calculations, power consumption and interfacing
-                                        between subsystems is also clarified. From the critical design,
-                                        two seperate people building the designs should produce
-                                        identical end products. often a prototype will be tested in
-                                        simulated space environments.
-                                    </p>
+                                    <hr class="invisible">
+                                    <p class="header-color h5 text-center">Operations</p>
+                                    <p class="header-color fs-5">This is the big moment. Where all the years of hard work come together in achieving the objective set out
+                                        in the mission's design phase. The satellite control center usually sends commands to the satellite via radio waves and tells the payload 
+                                        section of the satellite to begin. Then the images or information collected is beamed back down to earth often along with system 
+                                        monitoring information to check the health of the satellite.
+                                    </p>                                  
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
@@ -272,7 +209,6 @@
             </div>
         </div>
     </section>
-
     <footer>
         <div class="container">
             <div class="row gy-3 mt-4">
