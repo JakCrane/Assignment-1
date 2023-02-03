@@ -58,6 +58,11 @@ After the content overhaul I ended with this website profile.
 
 Now knowing what content I wanted on the site I produced multiple iterations of wireframe. initially it looked unprofessional so i checked other websites on dribbble to make it more sophisticated This was the final itteration:
 
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/Untitled_Notebook_1_2-1.png?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/Untitled_Notebook_1_2-2.png?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/Untitled_Notebook_1_2-3.png?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/Untitled_Notebook_1_2-4.png?raw=true)
+
 
 
 
