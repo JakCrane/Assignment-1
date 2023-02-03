@@ -1,7 +1,3 @@
-python3 -m http.server
-
-  new wire frame for current site
-  
 <h1>Satellites 101</h1>
 
 Satellites 101 is an independent eductional website with the core goal of getting people interested in Space and Satellites. Satellites are crucial for so many of our daily tasks that it is a shame that so few resources are availible. The website was designed to be as interactive and enjoyable as possible. This project was intended to be a starting point for people wanting to learn more about space. With lots of links and additional information, they can explore what ever direction interests them.
