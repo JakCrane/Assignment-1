@@ -3,6 +3,7 @@
 Satellites 101 is an independent eductional website with the core goal of getting people interested in Space and Satellites. Satellites are crucial for so many of our daily tasks that it is a shame that so few resources are availible. The website was designed to be as interactive and enjoyable as possible. This project was intended to be a starting point for people wanting to learn more about space. With lots of links and additional information, they can explore what ever direction interests them.
 
 ![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/site-screenshot.PNG?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/mobile-ss.PNG?raw=true)
 
 <h2>Creation process</h2>
 
@@ -70,6 +71,9 @@ the colour scheme chosen was trying to motivate feelings of professionalism and 
 
 ![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/colours.PNG?raw=true)
 
+<h2>Images</h2>
+
+I put plenty of images to accompany the text on all pages in order to break up the monotony of test and make it more visually pleasing.
 
 <h3>First time visitor</h3>
  the user can click on or interact with anything that interests them. with the sections being independent there is no order that they must be interacted with and the links below the hero serve to guide the user based on what questions they want answered. Minimising content the user doesnt find interesting.
@@ -129,9 +133,30 @@ aimed at being more interactive display and the inherently circular nature of ca
 
 relatively standard footer to not overwhelm. it contains a way to interact with the organisation and links to additional resources that may be useful to people after they finish with the page.
 
+<h2>Responsivity</h2>
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/site-screenshot.PNG?raw=true)
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/mobile-ss.PNG?raw=true)
+
+The first view is desktop; the second is mobile. The site is fully responsive with the bootstrap breakpoints and displays on laptops and tablets at an appropriate size.
+
 <h2>Future work</h2>
 
 given more time I would go over the carousel and make not change sizes when changing pages. I tried to do this but it ended up with lots of empty space or words being obscured as they overflowed the divs. additionally the timeline is interactive but you cannot tell. i would like to add a none intrusive popup that just tells people they can click the buttons for additional information
+
+<h2>Testing</h2>
+
+I performed w3 schools testing on html and css for all pages and there were no errors as seen below:
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/testing-1.PNG?raw=true)
+
+I tested it on mobile, laptop and desktop sized screens.
+
+I also performed lighthouse testing on all screen sizes too:
+
+![alt text](https://github.com/JakCrane/Assignment-1/blob/main/doc/testing-2.PNG?raw=true)
+
+
 
 <h2>Frameworks, Libraries, Technologies & Programs Used</h2>
 
@@ -152,3 +177,17 @@ Google Dev Tools - to debug and for testing responsiveness
 Google Lighthouse - for auditing the website
 
 W3C Validator - for validating the HTML and CSS code
+
+<h2>Languages</h2>
+
+HTML
+
+CSS
+
+JavaScript
+
+<h2>Acknowledgements</h2>
+
+Cheers Richey for helping :).
+
+Images taken from pexels.com and used for educational purposes.
